@@ -1,0 +1,56 @@
+# ================================
+# Build artifacts
+# ================================
+build/
+out/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# ================================
+# Binaries
+# ================================
+*.o
+*.obj
+*.a
+*.so
+*.dll
+*.dylib
+*.exe
+cream
+
+# ================================
+# Editor / IDE files
+# ================================
+.vscode/
+.idea/
+*.code-workspace
+*.swp
+*.swo
+*~
+.DS_Store
+
+# ================================
+# ImGui state (layout persistence)
+# ================================
+imgui.ini
+
+# ================================
+# Logs & runtime output
+# ================================
+logs/
+*.log
+core
+core.*
+
+# ================================
+# OS-specific
+# ================================
+Thumbs.db
+
+# ================================
+# External dependencies (optional)
+# ================================
+external/raylib/build/
